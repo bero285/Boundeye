@@ -1,0 +1,1 @@
+// this is because of bug, if i will remove this, the new created folder will stick to components folder

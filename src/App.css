@@ -1,38 +1,38 @@
-.App {
-  text-align: center;
+/* loader styles */
+.loader-container {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  background: #39b39a
+    url("https://cdn.dribbble.com/users/668360/screenshots/3425402/03_heartbeat-loader-animation-800x600.gif")
+    center no-repeat;
+  z-index: 1;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
+@keyframes spin-anim {
+  0% {
     transform: rotate(0deg);
   }
-  to {
+  100% {
     transform: rotate(360deg);
   }
+}
+/* main page styles */
+.btn-card-cont {
+  margin: 20px;
+}
+.find-btn {
+  text-shadow: 0 0 5px teal, 0 0 15px teal, 0 0 20px teal, 0 0 40px teal, 0 0 60px #eeeeee, 0 0 10px teal, 0 0 98px #eeeeee;
+}
+.people-container-main{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.people-container{
+  margin-top: 4%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
 }

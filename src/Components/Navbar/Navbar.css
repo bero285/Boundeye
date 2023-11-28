@@ -1,0 +1,60 @@
+/* navbar styles */
+.nav-wrap{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background: rgb(22, 152, 152);
+}
+
+/* logo and name styles */
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px 0 10px;
+    flex-direction: row;
+    margin-left: 50px;
+}
+.logo-name{
+    margin-left: 20px;
+    color: white;
+}
+
+/* styles to the links */
+.links{
+    align-items: flex-end;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    margin-right: 50px;
+}
+.list-item{
+    font-size: 18px;
+    margin: 0 20px 0 20px;
+    list-style-type: none;
+}
+.list-item:hover{
+    background: rgb(22, 152, 152);
+    box-shadow: 7px 8px 7px 8px solid black;
+}
+.list-item a{
+    text-decoration: none;
+}
+.btn{
+  background-color: rgb(22, 152, 152);
+  color: white;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+}
+.btn:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 2px;
+    cursor: pointer;
+    opacity: 0.5;
+    box-shadow: 0.5rem 0.5rem black, -0.5rem -0.5rem #ccc;
+}

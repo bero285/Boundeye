@@ -1,0 +1,12 @@
+/* input styles */
+.inputs{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.Search-field w3-center{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

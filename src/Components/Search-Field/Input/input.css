@@ -1,0 +1,29 @@
+.w3-input {
+    padding: 8px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 40%;
+    margin:5px;
+}
+.inputs{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.costum-input{
+    width: 40%;
+    margin: 5px;
+    height: 40px;
+    border: none;
+    border-bottom: 2px solid teal;
+    padding: 8px;
+    display: block;
+}
+.costum-input:focus{
+    outline: none;
+    background: rgb(239, 236, 236);
+}
+.costum-input::placeholder{
+    color: rgb(37, 67, 67);
+}
