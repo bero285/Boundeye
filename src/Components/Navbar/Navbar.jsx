@@ -1,27 +1,31 @@
-import './Navbar.css'
-import 'w3-css/w3.css';
-import { FcElectricalSensor } from "react-icons/fc";
+import "./Navbar.css";
+import "w3-css/w3.css";
 
+import { FaGraduationCap } from "react-icons/fa";
 const Navbar = () => {
   return (
     <nav>
-        {/* logo and name */}
-        <div className='nav-wrap'>
-            <div className='logo'>
-                <FcElectricalSensor className='w3-xxxlarge logo'></FcElectricalSensor>
-                <h3 className='logo-name'>StartUp</h3>
-            </div>
-
-            {/* links to other pages */}
-            <div className='links'>
-                <ul className='list'>
-                    <li className='list-item'><button className='btn'>ჩვენს შესახებ</button></li>
-                    <li className='list-item'><button className='btn'>დარეგისტრირდი</button></li>
-                </ul>
-            </div>
+      {/* logo and name */}
+      <div className="nav-wrap">
+        <div className="logo">
+          <FaGraduationCap className="w3-xxxlarge logo" />
+          <h3 className="logo-name">Boundeye</h3>
         </div>
-    </nav>
-  )
-}
 
-export default Navbar
+        {/* links to other pages */}
+        <div className="links">
+          <ul className="list">
+            <li className="list-item">
+              <button className="btn">About Us</button>
+            </li>
+            <li className="list-item">
+              <button className="btn">Register</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  );
+};
+
+export default Navbar;

@@ -1,12 +1,13 @@
 /* input styles */
-.inputs{
-    display: flex;
-    flex-wrap: wrap;
-    
+.inputs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding-block: 10px;
 }
-.Search-field w3-center{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.Search-field w3-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }

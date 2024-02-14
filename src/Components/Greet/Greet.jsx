@@ -13,28 +13,26 @@ const Greet = () => {
     setInterval(() => {
       setText(
         <h4 className="w3-animate-zoom">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
-          sapiente voluptas porro aliquam sequi doloremque, exercitationem
-          consectetur placeat non perferendis aliquid veniam, ex saepe
-          voluptates dolorum! Fugit, deleniti? Molestiae, sunt.
+          {/* Welcome to our exchange program tracking website! Explore
+          international opportunities offered by universities worldwide. From
+          cultural immersion to academic enrichment, we're here to simplify your
+          search. Start your journey towards global education today! */}
+          exchange opportunities from universities around the globe. Whether
+          you're a student eager to broaden your horizons or an institution
+          seeking to foster international collaborations, our platform is
+          designed to simplify your search. From cultural immersion to academic
+          enrichment, we're dedicated to connecting you with the perfect
+          exchange program to suit your interests and goals. Begin your journey
+          towards global education and cultural exploration today!
         </h4>
       );
     }, 1000);
   }, []);
 
-  useEffect(() => {
-    setInterval(() => {
-      setStart(
-        <h3 className="w3-animate-zoom">
-          რაიმე ტექსტი :D
-        </h3>
-      );
-    }, 2000);
-  }, [text]);
   return (
     <div className="greet">
       <div className="w3-center">
-        <h1 className="w3-center w3-animate-top hello-txt">Hello World</h1>
+        <h1 className="w3-center w3-animate-top hello-txt">Boundeye</h1>
         {text}
         {start}
       </div>
